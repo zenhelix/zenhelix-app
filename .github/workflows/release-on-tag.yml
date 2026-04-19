@@ -6,6 +6,6 @@ on:
 
 jobs:
   release:
-    uses: zenhelix/ci-workflows/.github/workflows/app-release.yml@v2
+    uses: zenhelix/ci-workflows/.github/workflows/app-release.yml@v3
     with:
       java-version: '17'
